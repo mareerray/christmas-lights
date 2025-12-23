@@ -1,6 +1,6 @@
 # Merry Christmas & Happy New Year Card 🎄
 
-A small festive web page built with HTML and CSS, featuring animated glowing lights, a falling snow effect, and a Christmas/New Year greeting.
+A small festive web page built with HTML and CSS and a little JavaScript, featuring animated glowing lights, a falling snow effect, background music, and a Christmas/New Year greeting.
 
 ## Demo
 
@@ -15,11 +15,13 @@ Live demo: https://mareerray.github.io/christmas-lights/
 - Centered greeting text with custom Google Fonts
 - Responsive layout for different screen sizes
 - Footer with GitHub and LinkedIn social links (Font Awesome icons)
+- Background music with a toggle button (speaker icon) in the footer
 
 ## Tech Stack
 
 - HTML5
 - CSS3
+- JavaScript (for music toggle)
 - Google Fonts (Indie Flower, Poppins)
 - Font Awesome icons
 
@@ -35,7 +37,7 @@ git clone https://github.com/mareerray/christmas-lights.git
 - Option 1: Just open `index.html` in your browser.
 - Option 2 (recommended): Use a local server, for example with VS Code Live Server.
 
-3. Edit `index.html` and `styles.css` if you want to customize the message, colors, or animations.
+3. Edit `index.html`, `styles.css`, and `script.js` if you want to customize the message, colors, animations, or sound behavior.
 
 ## Project Structure
 
@@ -44,7 +46,8 @@ git clone https://github.com/mareerray/christmas-lights.git
 ├── styles.css # Styles, animations, and layout
 └── assets
     ├── favicon.png
-    └── christmas-lights-screenshot.png
+    ├── christmas-lights-screenshot.png
+    └── christmas-music.mp3
 ````
 
 ## Customization
@@ -53,6 +56,8 @@ git clone https://github.com/mareerray/christmas-lights.git
 - Change light colors or glow effects in `.circle` classes and `@keyframes glow-*` in `styles.css`.
 - Adjust snow density and speed by editing the `body::before`, `body::after`, `snow-slow`, and `snow-fast` rules.
 - Replace GitHub/LinkedIn links in the `<footer>` with your own profiles.
+- Swap `assets/christmas-music.mp3` with your own audio file and update the `<audio>` `src` if needed.
+- Tweak the footer speaker icon style and behavior in `styles.css` and `script.js`.
 
 ## Deployment
 
