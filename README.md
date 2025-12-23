@@ -6,6 +6,8 @@ A small festive web page built with HTML and CSS, featuring animated glowing lig
 
 Live demo: https://mareerray.github.io/christmas-lights/
 
+![Happy Holiday card screenshot](assets/christmas-lights-screenshot.png)
+
 ## Features
 
 - Animated colored circles with glow effects
@@ -39,7 +41,10 @@ git clone https://github.com/mareerray/christmas-lights.git
 
 ````
 ├── index.html # Main HTML page
-└── styles.css # Styles, animations, and layout
+├── styles.css # Styles, animations, and layout
+└── assets
+    ├── favicon.png
+    └── christmas-lights-screenshot.png
 ````
 
 ## Customization
