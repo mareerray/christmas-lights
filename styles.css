@@ -72,6 +72,7 @@ body::after {
     }
 }
 
+/* Bulbs in a row */
 .main {
     border-radius: 25px;
     height: 20vh;
@@ -83,6 +84,7 @@ body::after {
     gap: 0.5rem;  /* responsive */
 }
 
+/* Each bulb */
 .circle {
     display: flex;
     margin: 1rem;
@@ -94,6 +96,7 @@ body::after {
     transition: 1s all ease;
 }
 
+/* Small rectangle on top of the circle */
 .circle:before {
     position: absolute;
     content: '';
@@ -110,6 +113,7 @@ body::after {
     border-bottom: 2px solid rgb(97, 81, 107);
 }
 
+/* Curved wire */
 .circle:after {
     position: absolute;
     content: "";
@@ -149,7 +153,7 @@ body::after {
 }
 
 
-
+/* on–off–on */
 @keyframes glow-1 {
     0%,
     100% {
@@ -160,6 +164,7 @@ body::after {
     }
 }
 
+/* off–on–off */
 @keyframes glow-2 {
     0%,
     100% {
@@ -170,6 +175,7 @@ body::after {
     }
 }
 
+/* on–off–on */
 @keyframes glow-3 {
     0%,
     100% {
@@ -180,6 +186,7 @@ body::after {
     }
 }
 
+/* off–on–off */
 @keyframes glow-4 {
     0%,
     100% {
