@@ -6,7 +6,7 @@ A small festive web page built with HTML and CSS and a little JavaScript, featur
 
 Live demo: https://mareerray.github.io/christmas-lights/
 
-![Happy Holiday card screenshot](assets/christmas-lights-screenshot.png)
+![Happy Holiday card screenshot](assets/christmas-lights.png)
 
 ## Features
 
